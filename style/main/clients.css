@@ -1,0 +1,97 @@
+@import url(../fonts.css);
+
+/* root-start */
+:root {
+    --Lato-Black: Lato-Black;
+    --Lato-Bold: Lato-Black;
+    --Poppins-Medium: Poppins-Medium;
+    --Poppins-Regular: Poppins-Regular;
+    --primary-black: #050C26;
+    --hover-blue: #3988FF;
+    --grey: #575859;
+    --white: #FFFFFF;
+    --line-red: #E41A1A;
+    --line-orange: #DA5A12;
+    --line-green: #5BBB10;
+    --line-blue: #15C1CC;
+    --service-bg: #F3F3F3;
+    --pricing-btn:#1B45DA;
+}
+
+/* root-end */
+.clients-titles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.clients-title{
+    color: var(--primary-black);
+    font-family:var(--Lato-Bold);
+    font-size: 43px;
+    line-height:60.2px;
+}
+.clients-text{
+    margin-top: 25px;
+    max-width: 715px;
+    width: 100%;
+    text-align: center; 
+    color: var(--grey);    
+    font-family:var(--Poppins-Regular);
+    font-size: 18px;
+    line-height:28.8px;
+}
+/* clients-item  start */
+
+.clients-item{
+    margin-top: 70px;
+    margin-bottom: 140px;
+    width: 100%;
+    height: 374px;
+    border-radius: 10px;
+    border: 1px solid var(--primary-black);
+    display: flex;
+}
+.item-left__center-icon{
+    margin-top: 317px;
+    max-width: 110px;
+    width: 100%;
+    height: 11px;
+    flex-shrink: 0;
+}
+.item-left__icon-text{
+    display: flex;
+    align-items: center;
+    margin: 46px 0px 0px 69px;
+}
+.item-left__text{
+    max-width: 371px;
+    width: 100%;
+    padding-top: 60px;
+    padding-left: 5px;
+    color: var(--primary-black);
+    font-family:var(--Poppins-Medium);
+    font-size: 18px;
+    line-height: 28.8px;
+}
+.item-left__person{
+    margin:30px 0px 107px 69px ;
+    display: flex;
+    align-items: center;
+}
+.left-person{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.left-person__name{
+    color: var(--primary-black);
+    font-family:var(--Poppins-Medium);
+    font-size: 20px;
+    line-height:32px;
+}
+.left-person__text{
+    color: var(--grey);
+    font-family:var(--Poppins-Regular);
+    font-size: 16px;
+    line-height:25.6px;
+}
